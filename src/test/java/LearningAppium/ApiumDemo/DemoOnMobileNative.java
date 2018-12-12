@@ -58,7 +58,7 @@ public class DemoOnMobileNative {
 
 		// Enter the text in textbox
 
-		driver.findElement(By.xpath("//android.widget.EditText[@content-desc='my_text_fieldCD']"))
+		driver.findElement(By.id("io.selendroid.testapp:id/my_text_field"))
 				.sendKeys("This is test message");
 
 		// click on registration button
